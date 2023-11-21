@@ -13,7 +13,7 @@ body {
 }
 
 .content {
-    width: 71%;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr 500px;
     font-family: 'League Spartan', sans-serif;
