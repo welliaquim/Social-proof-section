@@ -9,10 +9,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(to bottom, url(./images/bg-pattern-top-desktop.svg) top, url(./images/bg-pattern-bottom-desktop.svg) bottom);
 }
 
 .content {
-    width: 1000px;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr 500px;
     font-family: 'League Spartan', sans-serif;
@@ -148,7 +149,7 @@ img {
     .content {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 100%;
         padding: 3rem 1rem;
         gap: 2rem;
     }
@@ -169,6 +170,10 @@ img {
         flex-direction: column;
         height: 100%;
         gap: 1rem;
+    }
+
+    .user1, .user2, .user3 {
+        padding: 1.5rem;
     }
 
     .rating {
